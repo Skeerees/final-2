@@ -1,0 +1,68 @@
+/*UNIVERSAL*/
+
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+body{
+  font-family: 'Special Elite', cursive;
+}
+
+/*NAV*/
+
+.nav{
+  background-color: rgba(84, 21, 147, 0.8);
+}
+
+.nav-pills>li>a{
+  color: #fff;
+}
+
+.nav-pills>li>a:hover{
+  background-color: rgba(100, 100, 100, .5);
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+  background-color: rgba(33, 08, 058, 0.8);
+}
+
+.name{
+color: #fff;
+padding-left: 20px;
+}
+/*HERO*/
+
+.hero{
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/0c/ef/00/0cef0035ca2aace4972065989252bb69.jpg");
+  height: 500px;
+}
+
+/*PROFILE*/
+
+#profile{
+  border-top: 3px solid #262626;
+  border-bottom: 3px solid #262626;
+}
+
+.me{
+  background-image: url("../img/tiel_bg.jpg");
+  height: 325px;
+}
+
+.do{
+  background-image: url("../img/parrot.png");
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 325px;
+}
+
+/*CONTACT*/
+
+.online{
+  text-align: center;
+  list-style: none;
+  padding: 30px 0;
+}
+
+#contact{
+  background-color: #c7c7c7;
+}
